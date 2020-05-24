@@ -36,4 +36,9 @@ public class CatalogItem {
 		this.rating = rating;
 	}
 
+	@Override
+	public String toString() {
+		return "Movie name: " + name + "\n" + "Description: " + desc + "\n" + "Rating: " + rating + "\n";
+	}
+
 }
